@@ -1,7 +1,8 @@
 
 
 PRODUCT_PACKAGES += \
-    RKUpdateService
+    RKUpdateService \
+    PowerKey
 
 ifeq ($(strip $(TARGET_BOARD_HARDWARE)), rk30board)
 ifeq ($(strip $(TARGET_ARCH)), arm)
