@@ -2,7 +2,7 @@
 
 PRODUCT_PACKAGES += \
     RKUpdateService \
-    PowerKey
+    TunerSettings
 
 ifeq ($(strip $(TARGET_BOARD_HARDWARE)), rk30board)
 ifeq ($(strip $(TARGET_ARCH)), arm)
